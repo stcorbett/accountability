@@ -1,23 +1,61 @@
 import React from 'react';
 import './App.css';
 
+import CountryDropdown from './CountryDropdown'
+
 function App() {
 
   return (
     <div>
 
-      <div className="container">
-        <div className="py-5 text-center">
-          <h2>XX form</h2>
-          <p className="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+      <div className="container" style={{maxWidth: "375px"}}>
+        <div className="pt-2 pb-4">
+          <h1>
+            Promise &nbsp;
+            <small>
+              Sean - Ranny Coaching
+            </small>
+          </h1>
         </div>
 
-        <footer className="my-5 pt-5 text-muted text-center text-small">
-          <p className="mb-1">© 2017-2018 Company Name</p>
-        </footer>
+        <div className="row mb-5">
+          <div className="col-3">
+            <h3>Who</h3>
+          </div>
+          <div className="col">
+            buttons
+            <CountryDropdown />
+          </div>
+        </div>
+
+        <div className="row mb-5">
+          <div className="col-3">
+            <h3>What</h3>
+          </div>
+          <div className="col">
+            <textarea className="input100" type="text" name="name" placeholder="Promising to cause..." />
+            <div class="text-muted mt-2">
+             + condition of completion
+            </div>
+          </div>
+        </div>
+
+        <div className="row mb-5">
+          <div className="col-3">
+            <h3>By When</h3>
+          </div>
+          <div className="col">
+            Buttons
+            Date<CountryDropdown />
+
+            <div class="text-muted mt-2">
+             + repeat
+            </div>
+          </div>
+
+        </div>
       </div>
 
-      <input type="email" className="form-control autocomplete" id="email" placeholder="you@example.com" />
     </div>
   );
 }
