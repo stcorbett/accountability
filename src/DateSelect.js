@@ -27,17 +27,27 @@ const friendOptions = [
   },
   {
     key:    'Ranny Kang',
-    text:   'James I.',
+    text:   '2 Weeks',
     value:  'Ranny Kang',
   },
   {
     key:    'Sean Corbett',
-    text:   'Jeff T.',
+    text:   '3 Weeks',
     value:  'Sean Corbett',
+  },
+  {
+    key:    '5',
+    text:   '4 Weeks',
+    value:  '5',
+  },
+  {
+    key:    '9',
+    text:   '5 Weeks',
+    value:  '9',
   },
 ]
 
-const CountryDropdown = () => (
+const DateSelect = () => (
   <span className="label-input100">
     <Dropdown
       inline
@@ -47,23 +57,4 @@ const CountryDropdown = () => (
   </span>
 )
 
-const CountryyDropdown = () => (
-  <span>
-    Accountable: {' '}
-    <Dropdown text='Accountable' inline icon='filter'       defaultValue={friendOptions[0].value}>
-      <Dropdown.Menu>
-        <Input icon='search' iconPosition='left' className='search' />
-        <Dropdown.Divider />
-        <Dropdown.Header icon='tags' content='Tag Label' />
-        <Dropdown.Menu scrolling>
-          {friendOptions.map((option) => (
-            <Dropdown.Item key={option.value} {...option} />
-          ))}
-        </Dropdown.Menu>
-      </Dropdown.Menu>
-    </Dropdown>
-  </span>
-)
-
-
-export default CountryDropdown
+export default DateSelect

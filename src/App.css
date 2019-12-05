@@ -20,3 +20,16 @@
 .App-link {
   color: #09d3ac;
 }
+
+.btn-group-toggle{
+  display: inline !important;
+}
+
+.btn-group-toggle .btn{
+  border-radius: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.btn-group-toggle .ui.inline.dropdown > .text {
+  font-weight: unset !important;;
+}
