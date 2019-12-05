@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/accountability/static/css/main.7fd86a85.chunk.css",
+    "main.js": "/accountability/static/js/main.d2fbcd4a.chunk.js",
+    "main.js.map": "/accountability/static/js/main.d2fbcd4a.chunk.js.map",
+    "runtime-main.js": "/accountability/static/js/runtime-main.f0bee334.js",
+    "runtime-main.js.map": "/accountability/static/js/runtime-main.f0bee334.js.map",
+    "static/css/2.64a99b10.chunk.css": "/accountability/static/css/2.64a99b10.chunk.css",
+    "static/js/2.01d4cd49.chunk.js": "/accountability/static/js/2.01d4cd49.chunk.js",
+    "static/js/2.01d4cd49.chunk.js.map": "/accountability/static/js/2.01d4cd49.chunk.js.map",
+    "index.html": "/accountability/index.html",
+    "precache-manifest.3c4cdcbeaf5068c628d5ee2c0771d578.js": "/accountability/precache-manifest.3c4cdcbeaf5068c628d5ee2c0771d578.js",
+    "service-worker.js": "/accountability/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/accountability/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.7fd86a85.chunk.css.map": "/accountability/static/css/main.7fd86a85.chunk.css.map",
+    "static/media/semantic.css": "/accountability/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0bee334.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.01d4cd49.chunk.js",
+    "static/css/main.7fd86a85.chunk.css",
+    "static/js/main.d2fbcd4a.chunk.js"
+  ]
+}
