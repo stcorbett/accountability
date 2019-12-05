@@ -1,5 +1,9 @@
 import React from 'react'
 
+import {
+  Link
+} from "react-router-dom";
+
 const Teams = () => (
   <div>
     <div className="row mb-3 pb-2 ">
@@ -22,9 +26,9 @@ const Teams = () => (
             3 this week
           </div>
           <div className="col text-right">
-            <a href="/" className="">
-             <span className="text-primary">+</span> Promise
-            </a>
+            <Link to="/" className="">
+              <span className="text-primary">+</span> Promise
+            </Link>
           </div>
         </div>
       </div>
@@ -50,9 +54,9 @@ const Teams = () => (
             1 this week
           </div>
           <div className="col text-right">
-            <a href="/" className="">
-             <span className="text-primary">+</span> Promise
-            </a>
+            <Link to="/" className="">
+              <span className="text-primary">+</span> Promise
+            </Link>
           </div>
         </div>
       </div>
@@ -78,9 +82,9 @@ const Teams = () => (
             18 this week
           </div>
           <div className="col text-right">
-            <a href="/" className="">
-             <span className="text-primary">+</span> Promise
-            </a>
+            <Link to="/" className="">
+              <span className="text-primary">+</span> Promise
+            </Link>
           </div>
         </div>
       </div>
@@ -106,18 +110,18 @@ const Teams = () => (
             2 this week
           </div>
           <div className="col text-right">
-            <a href="/" className="">
-             <span className="text-primary">+</span> Promise
-            </a>
+            <Link to="/" className="">
+              <span className="text-primary">+</span> Promise
+            </Link>
           </div>
         </div>
       </div>
     </div>
 
     <div className="row bg-light mt-5">
-      <a href="#" className="col h3 m-0 p-3 text-center">
-       Add Team
-      </a>
+      <Link to="#" className="col h3 m-0 p-3 text-center">
+        Add Team
+      </Link>
     </div>
   </div>
 )

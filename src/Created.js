@@ -1,5 +1,9 @@
 import React from 'react'
 
+import {
+  Link
+} from "react-router-dom";
+
 const Created = () => (
   <div>
     <div className="text-center">
@@ -8,15 +12,15 @@ const Created = () => (
     </div>
 
     <div className="row mt-5">
-      <a href="#" className="col h3 m-0 p-3 text-center">
-       Change This
-      </a>
+      <Link to="/" className="col h3 m-0 p-3 text-center">
+        Change This
+      </Link>
     </div>
 
     <div className="row bg-info">
-      <a href="/" className="col text-white h3 m-0 p-3 text-center">
-       Create Again
-      </a>
+      <Link to="/" className="col text-white h3 m-0 p-3 text-center">
+        Create Again
+      </Link>
     </div>
 
     <div className="row mt-5">
@@ -24,9 +28,9 @@ const Created = () => (
         <u>Sean - Ranny Coaching</u>
       </div>
       <div className="col-4 text-right">
-        <a href="teams" className="">
+        <Link to="/teams" className="">
           Your teams &raquo;
-        </a>
+        </Link>
       </div>
     </div>
   </div>

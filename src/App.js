@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -45,7 +45,7 @@ class App extends React.Component {
     console.log("when: " + (!!this.state.when ? 'x' : 'd-none'))
 
     return (
-      <Router>
+      <Router basename='/'>
         <div>
 
           <div className="container" style={{maxWidth: "375px"}}>
@@ -158,9 +158,9 @@ class App extends React.Component {
                 </div>
 
                 <div className="row bg-success">
-                  <a href="created" className="col text-white h3 m-0 p-3 text-center">
-                   Create It
-                  </a>
+                  <Link to="/created" className="col text-white h3 m-0 p-3 text-center">
+                    Create It
+                  </Link>
                 </div>
               </Route>
             </Switch>
