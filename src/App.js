@@ -8,6 +8,8 @@ import {
   Link
 } from "react-router-dom";
 
+import { FaSearch } from 'react-icons/fa';
+
 import Teams from './Teams'
 import Created from './Created'
 
@@ -48,6 +50,21 @@ class App extends React.Component {
       <Router basename='/'>
         <div>
 
+          <nav className="container navbar navbar-expand-md navbar-dark bg-dark" style={{maxWidth: "375px"}}>
+            <Link to="/teams" className="" className="navbar-brand m-0 w-100">
+              ACT
+            </Link>
+            <div className="mx-auto">
+                <a className="navbar-brand mx-auto" href="#">
+                  Sean Coaching
+                </a>
+            </div>
+            <a className="navbar-brand m-0 w-100 ml-auto text-right" href="#">
+              <FaSearch />
+            </a>
+          </nav>
+
+
           <div className="container" style={{maxWidth: "375px"}}>
             <div className="pt-2 pb-4">
               <h1>
@@ -59,10 +76,7 @@ class App extends React.Component {
                     Teams
                   </Route>
                   <Route path="/">
-                   Promise &nbsp;
-                   <small>
-                     Sean - Ranny Coaching
-                   </small>
+                   Promise
                   </Route>
                 </Switch>
               </h1>

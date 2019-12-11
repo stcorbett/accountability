@@ -22,17 +22,6 @@ const Created = () => (
         Create Again
       </Link>
     </div>
-
-    <div className="row mt-5">
-      <div className="col">
-        <u>Sean - Ranny Coaching</u>
-      </div>
-      <div className="col-4 text-right">
-        <Link to="/teams" className="">
-          Your teams &raquo;
-        </Link>
-      </div>
-    </div>
   </div>
 )
 
