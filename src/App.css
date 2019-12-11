@@ -33,3 +33,7 @@
 .btn-group-toggle .ui.inline.dropdown > .text {
   font-weight: unset !important;;
 }
+
+.underline-warning {
+  text-decoration-color: #ffc107 !important;
+}

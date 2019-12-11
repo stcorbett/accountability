@@ -150,7 +150,7 @@ class App extends React.Component {
                   <div className="col-3">
                   </div>
                   <div className='col'>
-                    <div className={(!!this.state.when ? '' : 'd-none')}>
+                    <div className={'mt-2 ' + (!!this.state.when ? '' : 'd-none')}>
                       {['Today', 'Tomorrow'].includes(this.state.when) ? '' : 'In '}
                       {this.state.when} at <TimeSelect />
                     </div>

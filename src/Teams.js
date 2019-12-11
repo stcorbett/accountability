@@ -6,11 +6,14 @@ import {
 
 const Teams = () => (
   <div>
-    <div className="row mb-3 pb-2 ">
+    <div className="row mb-4 pb-2 ">
       <div className="col">
         <div className="row">
-          <div className="col h5 m-0">
-            Sean - Ranny Coaching
+          <div className="col h3 m-0">
+            Sean
+            <span className="h5">
+              &nbsp; Coaching
+            </span>
           </div>
         </div>
         <div className="row">
@@ -18,7 +21,7 @@ const Teams = () => (
             10 Promises
           </div>
           <div className="col text-right">
-            <span className="text-muted">2 need completion</span>
+            <u className="text-muted text-warning underline-warning">2 need completion</u>
           </div>
         </div>
         <div className="row">
@@ -34,11 +37,14 @@ const Teams = () => (
       </div>
     </div>
 
-    <div className="row mb-3">
+    <div className="row mb-4">
       <div className="col">
         <div className="row">
-          <div className="col h5 m-0">
-            Tricia - Ranny Coaching
+          <div className="col h3 m-0">
+            Julia
+            <span className="h5">
+              &nbsp; Coaching
+            </span>
           </div>
         </div>
         <div className="row">
@@ -46,7 +52,7 @@ const Teams = () => (
             3 Promises
           </div>
           <div className="col text-right">
-            <span className="text-muted">2 need completion</span>
+            <u className="text-muted underline-warning">2 need completion</u>
           </div>
         </div>
         <div className="row">
@@ -62,7 +68,7 @@ const Teams = () => (
       </div>
     </div>
 
-    <div className="row mb-3">
+    <div className="row mb-4">
       <div className="col">
         <div className="row">
           <div className="col h5 m-0">
@@ -74,7 +80,7 @@ const Teams = () => (
             40 Promises
           </div>
           <div className="col text-right">
-            <span className="text-muted">9 need completion</span>
+            <u className="text-muted underline-warning">9 need completion</u>
           </div>
         </div>
         <div className="row">
@@ -90,7 +96,7 @@ const Teams = () => (
       </div>
     </div>
 
-    <div className="row mb-3">
+    <div className="row mb-4">
       <div className="col">
         <div className="row">
           <div className="col h5 m-0">
