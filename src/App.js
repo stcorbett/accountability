@@ -49,17 +49,16 @@ class App extends React.Component {
     return (
       <Router basename='/'>
         <div>
-
-          <nav className="container navbar navbar-expand-md navbar-dark bg-dark" style={{maxWidth: "375px"}}>
-            <Link to="/teams" className="" className="navbar-brand m-0 w-100">
+          <nav className="container navbar navbar-dark bg-dark" style={{maxWidth: "375px"}}>
+            <Link to="/teams" className="" className="navbar-brand mr-auto" style={{width: "37px"}}>
               ACT
             </Link>
             <div className="mx-auto">
-                <a className="navbar-brand mx-auto" href="#">
+                <a className="navbar-brand mr-0" href="#">
                   Sean Coaching
                 </a>
             </div>
-            <a className="navbar-brand m-0 w-100 ml-auto text-right" href="#">
+            <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}>
               <FaSearch />
             </a>
           </nav>
