@@ -59,9 +59,9 @@
 
 .promises-list .promise{
   flex: 0 0 100%;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 1px solid #fff;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #fff;
   display: flex;
   flex-wrap: wrap;
 }
@@ -71,12 +71,12 @@
 }
 
 .promises-list .promise .name{
-  font-size: 115%;
-  flex: 0 0 70%;
+  font-size: 105%;
+  flex: 0 0 80%;
 }
 
 .promises-list .promise .date{
-  flex: 0 0 30%;
+  flex: 0 0 20%;
   text-align: right;
 }
 

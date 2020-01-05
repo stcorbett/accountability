@@ -51,7 +51,7 @@ class App extends React.Component {
       <Router basename='/'>
         <div>
           <nav className="container navbar navbar-dark bg-dark" style={{maxWidth: "375px"}}>
-            <Link to="/teams" className="" className="navbar-brand mr-auto" style={{width: "37px"}}>
+            <Link to="/teams" className="navbar-brand mr-auto" style={{width: "37px"}}>
               ACT
             </Link>
             <div className="mx-auto">

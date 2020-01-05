@@ -1,4 +1,5 @@
 import React from 'react'
+import moment from 'moment';
 
 import {
   Link
@@ -17,10 +18,26 @@ const Created = () => (
 
         <div className="row">
           <div className="col promise">
-            one of two
+            <div className="name">
+              Complete with Julia
+            </div>
+            <div className="date">
+              {moment().subtract(5, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'></span>
+            </div>
           </div>
           <div className="col promise">
-            one of two
+            <div className="name">
+              Set goals for the year
+            </div>
+            <div className="date">
+              {moment().subtract(3, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'>career</span>
+            </div>
           </div>
         </div>
       </div>
@@ -30,7 +47,7 @@ const Created = () => (
           <div className="col header">
             This Week
             <div className="dates d-inline float-right">
-              dates
+              {moment().add(2, 'days').startOf('week').format("M/D/YY")} - {moment().add(2, 'days').endOf('week').format("M/D/YY")}
             </div>
           </div>
         </div>
@@ -41,22 +58,41 @@ const Created = () => (
               Resume
             </div>
             <div className="date">
-              1/7/20
+              {moment().add(1, 'days').format("M/D/YY")}
             </div>
             <div className="tags">
               <span className='badge badge-info'>career</span>
             </div>
           </div>
+
           <div className="col promise">
-            one of three
+            <div className="name">
+              Integrity conversation with Jim
+            </div>
+            <div className="date">
+              {moment().add(2, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+
+            </div>
           </div>
+
           <div className="col promise">
-            Resume
+            <div className="name">
+              Invite 3 friends to introduction
+            </div>
+            <div className="date">
+              {moment().add(3, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'>ILP</span>
+            </div>
           </div>
+
         </div>
       </div>
 
-      <div className="future mb-4">
+      <div className="future">
         <div className="row">
           <div className="col header">
             Future
@@ -64,21 +100,67 @@ const Created = () => (
         </div>
 
         <div className="row">
+
           <div className="col promise">
-            one of five
+            <div className="name">
+              Update coach on action plan
+            </div>
+            <div className="date">
+              {moment().add(8, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'></span>
+            </div>
           </div>
+
           <div className="col promise">
-            one of five
+            <div className="name">
+              Email conversation notes to team
+            </div>
+            <div className="date">
+              {moment().add(8, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'>ILP</span>
+            </div>
           </div>
+
           <div className="col promise">
-            one of five
+            <div className="name">
+              Research cashflow opportunities
+            </div>
+            <div className="date">
+              {moment().add(10, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'>career</span>
+            </div>
           </div>
+
           <div className="col promise">
-            one of five
+            <div className="name">
+              Complete on animal well-being game
+            </div>
+            <div className="date">
+              {moment().add(15, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'></span>
+            </div>
           </div>
+
           <div className="col promise">
-            one of five
+            <div className="name">
+              Check in with Jim on health goals
+            </div>
+            <div className="date">
+              {moment().add(20, 'days').format("M/D/YY")}
+            </div>
+            <div className="tags">
+              <span className='badge badge-info'>health</span>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
