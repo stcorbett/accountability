@@ -9,7 +9,7 @@ const Teams = () => (
     <div className="row mb-4 pb-2 ">
       <div className="col">
         <div className="row">
-          <Link to="/" className="show-team col h3 m-0">
+          <Link to="/team/9324" className="show-team col h3 m-0">
             Sarah Conway
             <span className="h5">
               &nbsp; Coaching

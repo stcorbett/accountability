@@ -12,6 +12,7 @@ import { FaSearch } from 'react-icons/fa';
 
 import Teams from './Teams'
 import Created from './Created'
+import TeamShow from './TeamShow'
 
 import CountryDropdown from './CountryDropdown'
 import TimeSelect from './TimeSelect'
@@ -59,32 +60,51 @@ class App extends React.Component {
                     <Route path="/teams">
                       Teams
                     </Route>
+                    <Route path="/team/:id">
+                      Sarah Promises
+                    </Route>
                     <Route>
                       Sarah Coaching
                     </Route>
                   </Switch>
                 </a>
             </div>
-            <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}>
-              <FaSearch />
-            </a>
+            <Switch>
+              <Route exact path="/">
+                <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}> </a>
+              </Route>
+              <Route>
+                <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}>
+                  <FaSearch />
+                </a>
+              </Route>
+            </Switch>
           </nav>
 
 
           <div className="container" style={{maxWidth: "375px"}}>
-            <div className="pt-2 pb-4">
-              <Switch>
-                <Route path="/created">
-                  <h1> Created Future </h1>
-                </Route>
-                <Route path="/teams">
-                </Route>
-                <Route path="/">
-                  <h1> Promise </h1>
-                </Route>
-              </Switch>
-            </div>
             <Switch>
+              <Route path="/created">
+                <div className="pt-2 pb-4">
+                  <h1> Created Future </h1>
+                </div>
+              </Route>
+              <Route path="/team/:id">
+              </Route>
+              <Route path="/teams">
+                <div className="pt-2 pb-4">
+                </div>
+              </Route>
+              <Route path="/">
+                <div className="pt-2 pb-4">
+                  <h1> Promise </h1>
+                </div>
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/team/9324">
+                <TeamShow />
+              </Route>
               <Route path="/created">
                 <Created />
               </Route>

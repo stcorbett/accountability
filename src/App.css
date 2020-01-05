@@ -45,3 +45,57 @@
 .team-list a.show-team:hover{
   background: rgba(0, 0, 0, 0.03);
 }
+
+.promises-list .header{
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.promises-list .header .dates{
+  color: rgba(0, 0, 0, 0.47);
+  font-weight: 300;
+}
+
+.promises-list .promise{
+  flex: 0 0 100%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promises-list .promise:last-child {
+  border-bottom: 0px;
+}
+
+.promises-list .promise .name{
+  font-size: 115%;
+  flex: 0 0 70%;
+}
+
+.promises-list .promise .date{
+  flex: 0 0 30%;
+  text-align: right;
+}
+
+.promises-list .promise .tags{
+  flex: 0 0 100%;
+}
+
+.promises-list .promise .tags .tag{
+
+}
+
+.promises-list .need-completion .promise{
+  background: rgba(255,114,42, 0.08);
+}
+
+.promises-list .this-week .promise{
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.promises-list .future .promise{
+  background: rgba(0, 125, 255, 0.06);
+}
