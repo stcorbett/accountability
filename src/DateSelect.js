@@ -5,7 +5,7 @@ import { Dropdown, Input } from 'semantic-ui-react'
 
 const countryOptions = [
   { key: 'me', value: 'me', text: 'Other' },
-  { key: 'sc', value: 'sc', text: 'Sean Corbett' },
+  { key: 'sc', value: 'sc', text: 'Sarah Conway' },
   { key: 'rk', value: 'rk', text: 'Ranny Kang' },
 ]
 
@@ -31,9 +31,9 @@ const friendOptions = [
     value:  'Ranny Kang',
   },
   {
-    key:    'Sean Corbett',
+    key:    'Sarah Conway',
     text:   '3 Weeks',
-    value:  'Sean Corbett',
+    value:  'Sarah Conway',
   },
   {
     key:    '5',

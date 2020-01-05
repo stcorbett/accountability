@@ -5,16 +5,16 @@ import {
 } from "react-router-dom";
 
 const Teams = () => (
-  <div>
+  <div className="team-list">
     <div className="row mb-4 pb-2 ">
       <div className="col">
         <div className="row">
-          <div className="col h3 m-0">
-            Sean
+          <Link to="/" className="show-team col h3 m-0">
+            Sarah Conway
             <span className="h5">
               &nbsp; Coaching
             </span>
-          </div>
+          </Link>
         </div>
         <div className="row">
           <div className="col">
@@ -41,7 +41,7 @@ const Teams = () => (
       <div className="col">
         <div className="row">
           <div className="col h3 m-0">
-            Julia
+            James Legross
             <span className="h5">
               &nbsp; Coaching
             </span>
@@ -124,7 +124,7 @@ const Teams = () => (
       </div>
     </div>
 
-    <div className="row bg-light mt-5">
+    <div className="bg-light row mt-5">
       <Link to="#" className="col h3 m-0 p-3 text-center">
         Add Team
       </Link>

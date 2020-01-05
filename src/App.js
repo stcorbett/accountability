@@ -55,7 +55,14 @@ class App extends React.Component {
             </Link>
             <div className="mx-auto">
                 <a className="navbar-brand mr-0" href="#">
-                  Sean Coaching
+                  <Switch>
+                    <Route path="/teams">
+                      Teams
+                    </Route>
+                    <Route>
+                      Sarah Coaching
+                    </Route>
+                  </Switch>
                 </a>
             </div>
             <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}>
@@ -66,19 +73,16 @@ class App extends React.Component {
 
           <div className="container" style={{maxWidth: "375px"}}>
             <div className="pt-2 pb-4">
-              <h1>
-                <Switch>
-                  <Route path="/created">
-                    Created Future
-                  </Route>
-                  <Route path="/teams">
-                    Teams
-                  </Route>
-                  <Route path="/">
-                   Promise
-                  </Route>
-                </Switch>
-              </h1>
+              <Switch>
+                <Route path="/created">
+                  <h1> Created Future </h1>
+                </Route>
+                <Route path="/teams">
+                </Route>
+                <Route path="/">
+                  <h1> Promise </h1>
+                </Route>
+              </Switch>
             </div>
             <Switch>
               <Route path="/created">
@@ -94,8 +98,8 @@ class App extends React.Component {
                   </div>
                   <div className="col">
                     <div className="btn-group btn-group-toggle" data-toggle="buttons">
-                      <label className={'btn btn-outline-secondary ' + (this.state.who === "Sean" ? 'active' : '')} onClick={this.handleWhoClick} data-param={"Sean"}>
-                        <input type="radio" name="options" id="option1" autoComplete="off"/> Sean
+                      <label className={'btn btn-outline-secondary ' + (this.state.who === "Sarah" ? 'active' : '')} onClick={this.handleWhoClick} data-param={"Sarah"}>
+                        <input type="radio" name="options" id="option1" autoComplete="off"/> Sarah
                       </label>
                       &nbsp;
                       <label className={'btn btn-outline-secondary ' + (this.state.who === "Ranny" ? 'active' : 'xxx')} onClick={this.handleWhoClick} data-param={"Ranny"}>
@@ -127,7 +131,7 @@ class App extends React.Component {
                   <div className="col-3">
                     <h3>By When</h3>
                     <a href="#" className="text-muted mt-2 d-block">
-                     <span className="text-primary">&#8227;</span> repeat
+                     <span className="text-primary">+</span> repeat
                     </a>
                   </div>
                   <div className="col-9">

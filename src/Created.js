@@ -7,11 +7,11 @@ import {
 const Created = () => (
   <div>
     <div className="text-center">
-      Sean will complete the clickable prototype<br/>
-      By tomorrow at Midnight
+      Sarah will complete the resume<br/>
+      By next week at Midnight
     </div>
 
-    <div className="row mt-5">
+    <div className="bg-light row mt-5">
       <Link to="/" className="col h3 m-0 p-3 text-center">
         Change This
       </Link>

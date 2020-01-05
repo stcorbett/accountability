@@ -37,3 +37,11 @@
 .underline-warning {
   text-decoration-color: #ffc107 !important;
 }
+
+.team-list a.show-team, .team-list a.show-team:visited{
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.team-list a.show-team:hover{
+  background: rgba(0, 0, 0, 0.03);
+}
