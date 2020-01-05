@@ -40,12 +40,12 @@ const Teams = () => (
     <div className="row mb-4">
       <div className="col">
         <div className="row">
-          <div className="col h3 m-0">
+          <Link to="/team/9324" className="show-team col h3 m-0">
             James Legross
             <span className="h5">
               &nbsp; Coaching
             </span>
-          </div>
+          </Link>
         </div>
         <div className="row">
           <div className="col">
@@ -71,9 +71,9 @@ const Teams = () => (
     <div className="row mb-4">
       <div className="col">
         <div className="row">
-          <div className="col h5 m-0">
+          <Link to="/team/9324" className="show-team col h5 m-0">
             TMLP Seattle - Powerful Leaders Causing Transformation in the World
-          </div>
+          </Link>
         </div>
         <div className="row">
           <div className="col">
@@ -99,9 +99,9 @@ const Teams = () => (
     <div className="row mb-4">
       <div className="col">
         <div className="row">
-          <div className="col h5 m-0">
+          <Link to="/team/9324" className="show-team col h5 m-0">
             Retreat and Resort: Rejuvination to impact lives
-          </div>
+          </Link>
         </div>
         <div className="row">
           <div className="col">
