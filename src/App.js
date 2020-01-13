@@ -13,6 +13,7 @@ import { FaSearch } from 'react-icons/fa';
 import Teams from './Teams'
 import Created from './Created'
 import TeamShow from './TeamShow'
+import PromiseShow from './PromiseShow'
 
 import CountryDropdown from './CountryDropdown'
 import TimeSelect from './TimeSelect'
@@ -61,7 +62,10 @@ class App extends React.Component {
                       Teams
                     </Route>
                     <Route path="/team/:id">
-                      Sarah Promises
+                      Sarah's Promises
+                    </Route>
+                    <Route path="/promise/:id">
+                      Integrity conversation
                     </Route>
                     <Route>
                       Sarah Coaching
@@ -95,13 +99,16 @@ class App extends React.Component {
                 <div className="pt-2 pb-4">
                 </div>
               </Route>
-              <Route path="/">
+              <Route exact path="/">
                 <div className="pt-2 pb-4">
                   <h1> Promise </h1>
                 </div>
               </Route>
             </Switch>
             <Switch>
+              <Route path="/promise/:id">
+                <PromiseShow />
+              </Route>
               <Route path="/team/9324">
                 <TeamShow />
               </Route>
