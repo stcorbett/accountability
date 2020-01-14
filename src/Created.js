@@ -8,7 +8,7 @@ const Created = () => (
   <div>
     <div className="text-center">
       Sarah will complete the resume<br/>
-      By next week at Midnight
+      By tomorrow at Midnight
     </div>
 
     <div className="bg-light row mt-5">

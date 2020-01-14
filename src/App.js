@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 
 import { FaSearch } from 'react-icons/fa';
+import { AiOutlineClose } from 'react-icons/ai';
+import { GoPrimitiveDot } from 'react-icons/go';
 
 import Teams from './Teams'
 import Created from './Created'
@@ -53,7 +55,14 @@ class App extends React.Component {
         <div>
           <nav className="container navbar navbar-dark bg-dark" style={{maxWidth: "375px"}}>
             <Link to="/teams" className="navbar-brand mr-auto" style={{width: "37px"}}>
-              ACT
+              <Switch>
+                <Route path="/promise/:id">
+                  <AiOutlineClose />
+                </Route>
+                <Route>
+                  ACT
+                </Route>
+              </Switch>
             </Link>
             <div className="mx-auto">
                 <a className="navbar-brand mr-0" href="#">
@@ -65,7 +74,7 @@ class App extends React.Component {
                       Sarah's Promises
                     </Route>
                     <Route path="/promise/:id">
-                      Integrity conversation
+                      Promise
                     </Route>
                     <Route>
                       Sarah Coaching
@@ -76,6 +85,13 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/">
                 <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}> </a>
+              </Route>
+              <Route path="/promise/:id">
+                <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px", fontSize: "10px"}}>
+                  <GoPrimitiveDot />
+                  <GoPrimitiveDot />
+                  <GoPrimitiveDot />
+                </a>
               </Route>
               <Route>
                 <a className="navbar-brand m-0 ml-auto text-right" href="#" style={{width: "37px"}}>
