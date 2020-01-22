@@ -29,7 +29,7 @@ Disempowered people loosing track of shit
 Ranny is a professional coach and coaches folks in the TMLP - she works with people specifically around performance.
 She has calls with her coachees weekly where they create committments for action in their lives. She checks commitments from previous weeks.
 
--- do you have your notebook in front of you? take it out --
+** do you have your notebook in front of you? take it out **
 
 Often the commitments people make would get lost - they would sketch something in a notebook during a call maybe,
 often they were lost in the notebook and never refered to again
@@ -40,12 +40,12 @@ It was frustrating for Ranny and for her coachees - they had great plans but wer
 It made Ranny's coaching less effective - she wasn't always aware when commitments were lost
 Her coachees often didn't get what they started the coaching for
 
--- are there promises are written in your notebook? Were they spoken about after being written down? --
+** are there promises are written in your notebook? Were they spoken about after being written down? **
 
 EXPLOSION
 Using ACT
 
--- open app to PROMISE CREATION page --
+-- PROMISE CREATION page --
 
 Ranny tried the ACT app with a few of the people she coaches -
 
@@ -58,15 +58,18 @@ Ranny pulls up the ACT app, clicks Sarah's name, types resume, clicks "next week
 -- CREATE PROMISE like Ranny did (click buttons quickly, see it on next page) --
 
 Sarah and Ranny both get a text "Sarah - Resume - by Wednesday at 5PM" - it shows up in Sarah's calendar
--- SHOW CALENDAR EVENT - show the promise in my calendar --
+++++ PPT: SHOW TEXT MESSAGE - Sarah will XYZ by PQR (short link here) ++++
+++++ PPT: SHOW TEXT MESSAGE - You promised to XYZ by PQR (short link here) ++++
+++++ PPT: SHOW CALENDAR EVENT - show the promise in my calendar ++++
 that is it, there will be no question next week about what Sarah committed to.
 Ranny is ecstatic, knowing the major breakthrough Sarah just had won't be lost
 Ranny has freedom and piece of mind knowing she's delivering the value Sarah set out to get and she support in her coaching
-***
+
+=========
 Ranny trusts herself and her coaching ability
 Sarah feels a new sense of purpose and a sense of trust with Ranny, knowing Ranny and the ACT app will hold her to account for her commitment
 Sarah trusts she will be in action this next week, know the ACT app put her commitment in her calendar and that Ranny sees it there too
-***
+=========
 
 Sarah and Ranny continue the call un-interrupted and talk in depth about what hold Sarah back from being in action
 
@@ -76,28 +79,40 @@ Everything awesome
 -- TEAM LIST - see the list of Ranny's teams with promise counts --
 
 Ranny starts using the ACT app on all of her coaching calls and with her TMLP team.
--- click in to TMLP PROMISES LIST -- see TMLP team names and visibility --
+-- TMLP PROMISES LIST click in -- see TMLP team names and visibility --
 Things get done around her and people's lives transform
 Ranny even uses ACT in her property management business which starts performing at a higher level and she is able to quit her other job
 She is effective with freedom and ease
 
--- come back to showing Sarah's PROMISES LIST --
+-- PROMISES LIST = come back to showing Sarah's promises --
 
 Ranny's coaching business blossoms, her coachees are effective in their games
 Promises are never going to be delivered 100% of the time - if you just forget about a promise though, you are DONE
 When the promise is in existence, even if you don't hit it, you have an opportunity to look at what gets in the way - every time
 
+(Optional - seeing a promise completed - click to complete it)
+  -- PROMISE Completed page --
+  ++++ PPT: SHOW TEXT MESSAGE - Sarah completed the promise to XYZ (short link here) ++++
+  ++++ PPT: SHOW TEXT MESSAGE - Sarah repromised to XYZ by PQR (short link here) ++++
+  ++++ PPT: SHOW TEXT MESSAGE - Sarah revoked the promise to XYZ by PQR (short link here) ++++
 
 
+DECISION TIME
+Does this fit?
 
-$20 now for 6 months - buy?
+** What do you think? Do you see yourself in Ranny's shoes? **
+
+We want to make it easy for people who have helped with these demo calls to get value from it
+I can get you on it for our costs - $20 for 6 months - Would you pay that to use it?
+
 Do you see this as something that would be valuable for your coaching?
-Do you want to start using it? For people who help with these demo calls it's $20 for the first 6 months.
 
-=== great! I'll send you a venmo! ===
+  great! I'll send you a venmo address!
+    @stcorbett on venmo
+    (this should be a link that itemizes the deal)
 
-=== Oh, I don't know.... ===
-What would this need to provide to be worth it?
-Tell me more about that
+  Oh, I don't know....
+    What would this need to provide to be worth it?
+    Tell me more about that
 
 -
